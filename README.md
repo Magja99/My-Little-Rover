@@ -1,2 +1,1 @@
-# My-Little-Rover
-Codes I wrote for my science club's rover
+Publisher, which changes diode colors depending on rover state
