@@ -30,9 +30,9 @@ def callback(state):
 
 rospy.init_node("test_pub")
 
-pub_R = rospy.Publisher("/rubi/boards/kurwotron/fields_to_board/LED_R", RubiBool, queue_size = 10, latch = True)
-pub_G = rospy.Publisher("/rubi/boards/kurwotron/fields_to_board/LED_G", RubiBool, queue_size = 10, latch = True)
-pub_B = rospy.Publisher("/rubi/boards/kurwotron/fields_to_board/LED_B", RubiBool, queue_size = 10, latch = True)
+pub_R = rospy.Publisher("/rubi/boards/fields_to_board/LED_R", RubiBool, queue_size = 10, latch = True)
+pub_G = rospy.Publisher("/rubi/boards/fields_to_board/LED_G", RubiBool, queue_size = 10, latch = True)
+pub_B = rospy.Publisher("/rubi/boards/fields_to_board/LED_B", RubiBool, queue_size = 10, latch = True)
 
 msg_R = RubiBool()
 msg_G = RubiBool()
